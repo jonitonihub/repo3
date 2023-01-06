@@ -1,4 +1,4 @@
-FROM ruby:2.4.0
+FROM ruby:2.4.10
 WORKDIR  /home/ruby
 COPY . /home/ruby
 RUN bundle install
